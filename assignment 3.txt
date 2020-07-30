@@ -1,0 +1,107 @@
+1.Assignment operators:
++=, -=, /=, *=, **=, //=, !=, ^=, >>=, <<=
+
+a=50                                                                                                                    
+b=30                                                        
+a+=b                output:80                               
+print(a) 
+
+a=50
+b=30
+a-=b               output:20
+print(a)
+
+a=50
+b=30
+a/=b              output:1.6666666666666667
+print(a)
+
+a=50
+b=30
+a*=b              output:1500
+print(a)
+
+a=50
+b=30
+a**=b            output:931322574615478515625000000000000000000000000000000
+print(a)
+
+a=50
+b=30
+a//=b           output:1
+print(a)
+
+a=50
+b=30
+if(a!=b):              output:50
+   print(a)
+else:
+    print(b)
+
+a=50
+a<<=1               output:100
+print(a)
+
+a=50
+a>>=1              output:25
+print(a)
+
+2.Comparision operators:
+==,!=,<=,>=
+
+a=50
+b=30
+if(a>=b):
+    print("a is big")
+elif(a==b):
+    print("both are equal")                  output:a is big
+elif(a!=b):
+    print("both are not equal")
+else:
+    print("b is big")
+
+
+3.bitwise operators:
+&,|,^,<<,>>,~.
+
+x=3                                      output:1
+y=5                                             7
+print(x&y)                                      6
+print(x|y)                                      96
+print(x^y)                                      0
+print(x<<y)
+print(x>>y)
+
+
+4.Work on dictionary and tuple?
+Dictionary:
+A dictionary is a collection which is unordered, changeable and indexed. 
+In Python dictionaries are written with curly brackets, and they have keys and values.
+ex:kvt = {"name": "hari","place": "guntur","year": "2020"}
+print(kvt)
+
+Tuple:A tuple is a collection which is ordered and unchangeable. 
+In Python tuples are written with round brackets.
+ex:kvt= ("hari", "nagesh", "rao")
+print(kvt)
+
+5.Methods:
+seed()-used in generating random numbers
+syntax:seed([x])
+getstate-usedto capture the state and return the object of the random number generated with current state.
+syntax:random.getstate()
+randint()-used to generate a random number and return an integer number from the specific range.
+syntax:random.randint()
+randrange-used to return the selected element from the specific range.
+syntax:random.randrange(start,stop,step)
+choices()-used to return a random selected item of the list from the specified range of list or tuple or the other.
+syntaxrandom.choices(sequence,weights=none,cum_weights=none,k=1)
+shuffle()-used to randomize or shuffle the sequence of lists or tuple or other.
+syntax:random.shuffle(sequence,function)
+choice()-used to return the random sequence element from the list or tuple.
+syntax:random.choice(sequence)
+triangular()-used to return the random floating number from the two specified numbers you can also specify the third parameter.
+syntax:random.triangle(low,high,mode)
+uniform()- used to return a random float number from the two specified numbers
+syntax:random.uniform(a,b)
+
